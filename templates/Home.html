@@ -1,0 +1,15 @@
+<loader is-loading="main.isLoading"></loader>
+<div class="page-content home" ng-if="!main.isLoading">
+  <!-- <p class="mdl-typography--headline"></p> -->
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <div class="mdl-card mdl-shadow--2dp expression__container">
+        <expression-block>
+          <operand></operand>
+          <operator></operator>
+          <operand class="expression--new-line"></operand>
+        </expression-block>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="expressionBuilderApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Expression Builder</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.red-blue.min.css">
+    <link rel="stylesheet" href="/assets/style/app.css" media="screen" title="Expression Builder Stylesheet" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js" charset="utf-8"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Expression Builder</span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="https://github.com/krishnaxv/ng-expression-builder" target="_blank">GitHub</a>
+          </nav>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="main">
+          <ui-view></ui-view>
+        </div>
+      </main>
+      <footer class="footer mdl-mini-footer mdl-color--grey-900">
+        <div class="mdl-mini-footer__left-section">
+          <!-- <div class="mdl-logo">Expression Builder</div> -->
+          <ul class="mdl-mini-footer__link-list">
+            <li><a href="#">Expression Builder <em>by krishnaxv</em></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="assets/js/modules/expression.builder.module.js" charset="utf-8"></script>
+    <script src="assets/js/app.js" charset="utf-8"></script>
+    <script src="assets/js/config.js" charset="utf-8"></script>
+    <script src="assets/js/run.js" charset="utf-8"></script>
+    <script src="assets/js/services/log.service.js" charset="utf-8"></script>
+    <script src="assets/js/directives/loader.directive.js" charset="utf-8"></script>
+    <script src="assets/js/controllers/main.controller.js" charset="utf-8"></script>
+  </body>
+</html>
